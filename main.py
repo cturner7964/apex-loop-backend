@@ -7,7 +7,7 @@ import math
 
 app = FastAPI()
 
-# Replace this with your real OpenRouteService API key (set in Render as ORS_API_KEY)
+
 ORS_API_KEY = os.getenv("ORS_API_KEY", "5b3ce3597851110001cf62484c6d95872ffc4351a8552731f4dec2d8")
 ORS_BASE_URL = "https://api.openrouteservice.org/v2/directions/driving-car"
 
